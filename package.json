@@ -1,0 +1,20 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio using HTML, TailwindCSS and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tailwindcss -i ./styles.css -o ./dist/styles.css --minify"
+  },
+  "keywords": [
+    "Personal_Portfolio",
+    "Personal_Website"
+  ],
+  "author": "Keyur Panchal",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  }
+}

@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+    <script
+      src="https://kit.fontawesome.com/c8a2384604.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body
+    class="dark:bg-[#030712] dark:text-white font-poppins transition duration-300"
+  >
+    <main class="relative">
+      <header class="h-20 sticky top-0 z-10 bg-[#030712]">
+        <nav
+          class="h-full max-w-[1200px] mx-auto px-3 flex justify-between md:justify-evenly items-center"
+        >
+          <div>
+            <h1>&lt;KP/&gt;</h1>
+          </div>
+
+          <div class="text-gray-900 sm:text-gray-300">
+            <ul
+              id="items"
+              class="hidden sm:flex sm:flex-row flex-col sm:items-center gap-6 sm:gap-4 sm:static absolute top-16 left-0 w-full sm:w-auto text-center bg-white sm:bg-transparent shadow sm:shadow-none p-4 sm:dark:bg-transparent"
+            >
+              <li class="cursor-pointer mt-4 sm:mt-0">About</li>
+              <li class="cursor-pointer mt-4 sm:mt-0">
+                <a href="#skills">Skills</a>
+              </li>
+              <li class="cursor-pointer mt-4 sm:mt-0">
+                <a href="#experience">Experience</a>
+              </li>
+              <li class="cursor-pointer mt-4 sm:mt-0">
+                <a href="#contactUs">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex gap-4 items-center">
+            <div>
+              <button
+                class="bg-white text-slate-900 font-semibold rounded-md px-4 py-2 cursor-pointer transition transform"
+              >
+                <a
+                  target="_blank"
+                  href="assets/files/PANCHAL-KEYUR-H.-RESUME.pdf"
+                  download="Download Resume"
+                  >Download CV</a
+                >
+              </button>
+            </div>
+
+            <div id="menu-btn" class="sm:hidden text-2xl">
+              <i id="closeBtn" class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- About me section -->
+      <section
+        class="max-w-[1200px] mx-auto mt-10 flex small:flex-row flex-col-reverse justify-center gap-10"
+      >
+        <div class="px-3 py-1 small:w-[50%] w-full">
+          <!-- Name -->
+          <div>
+            <h2 class="small:text-4xl text-2xl font-medium">
+              Hii, I'm Keyur Panchal
+            </h2>
+          </div>
+          <!-- Some text regarding me -->
+          <div class="mt-4">
+            <p class="text-sm text-gray-300 font-extralight">
+              I am a Full Stack Developer skilled in building responsive and
+              user-friendly web applications. I work with JavaScript, Node.js,
+              Express, and MongoDB to create scalable backends, and with HTML,
+              CSS, and modern frameworks for intuitive frontends. I enjoy
+              solving problems, writing clean code, and delivering seamless
+              digital experiences from start to finish.
+            </p>
+          </div>
+          <!-- Location -->
+          <div class="mt-5 font-extralight text-gray-300">
+            <p>
+              <span class="mr-4">
+                <i class="fa-solid fa-location-dot"></i> </span
+              ><span>Ahmedabad</span>
+            </p>
+            <p class="mt-3">
+              <span class="text-green-600 mr-4"
+                ><i class="fa-solid fa-circle text-[12px]"></i></span
+              ><span>Available to new projects</span>
+            </p>
+          </div>
+          <!-- Social media links -->
+          <div class="mt-10 flex gap-5 text-xl">
+            <p>
+              <span class="cursor-pointer"
+                ><i class="fa-brands fa-github"></i
+              ></span>
+            </p>
+            <p>
+              <span class="cursor-pointer"
+                ><i class="fa-brands fa-linkedin"></i
+              ></span>
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center overflow-hidden">
+          <div class="small:size-50 w-full">
+            <img
+              src="assets/myphoto.png"
+              alt=""
+              class="h-full w-full object-contain rounded-full small:shadow small:shadow-white"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills section -->
+      <section id="skills" class="bg-[#111827] mt-10 px-3 py-5">
+        <div class="max-w-[1200px] w-[95%] mx-auto font-medium">
+          <h2 class="text-center mt-2">
+            <span class="bg-gray-500 px-4 py-1 rounded-md">Skills</span>
+          </h2>
+          <p class="text-sm font-extralight text-center mt-2">
+            The skills, tools and technologies i really am good at
+          </p>
+
+          <div class="flex gap-10 flex-wrap justify-center mt-10">
+            <!--HTML Logo -->
+            <div class="text-center">
+              <img
+                class="size-20 mb-2 rounded-md"
+                src="https://static.vecteezy.com/system/resources/previews/001/416/705/non_2x/html5-emblem-orange-shield-and-white-text-vector.jpg"
+                alt="HTML logo"
+              />
+              <span>HTMl</span>
+            </div>
+
+            <!--CSS Logo -->
+            <div class="text-center">
+              <img
+                class="size-20 mb-2 rounded-md"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtRQ2iA8LiTtov0TVqryujkcirm1jzItuVcQ&s"
+                alt="CSS logo"
+              />
+              <span>CSS</span>
+            </div>
+
+            <!--TailWind CSS Logo -->
+            <div class="text-center flex flex-col items-center">
+              <img
+                class="size-20 mb-2 rounded-m"
+                src="https://www.drupal.org/files/styles/grid-3-2x/public/project-images/screenshot_361.png?itok=w4CzcWyb"
+                alt="TailWind CSS logo"
+              />
+              <span>TailWind CSS</span>
+            </div>
+
+            <!-- JavaScript logo -->
+            <div class="text-center">
+              <img
+                class="size-20 mb-2 rounded-md"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHnJDLOcdm_0b6N6kNj-1OvO9KhKYgqIy0w&s"
+                alt="JavaScript logo"
+              />
+              <span>JavaScript</span>
+            </div>
+
+            <!-- Node Js Logo -->
+            <div class="text-cente">
+              <img
+                class="size-20 mb-2 rounded-md shadow shadow-white"
+                src="https://www.freepnglogos.com/uploads/javascript-png/javascript-nodejs-logo-27.png"
+                alt="NodeJs logo"
+              />
+              <span>NodeJs</span>
+            </div>
+
+            <!-- Express js Logo -->
+            <div class="text-center">
+              <img
+                class="size-20 mb-2 rounded-md object-cover"
+                src="https://w7.pngwing.com/pngs/846/87/png-transparent-mean-solution-stack-express-js-node-js-javascript-github-text-trademark-logo.png"
+                alt="Express.Js logo"
+              />
+              <span>Express.Js</span>
+            </div>
+
+            <!-- MongoDB js Logo -->
+            <div class="text-center">
+              <img
+                class="size-20 mb-2 rounded-md shadow shadow-white"
+                src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
+                alt="MongoDB logo"
+              />
+              <span>MongoDB</span>
+            </div>
+
+            <!-- Socket.io  Logo -->
+            <div class="text-center">
+              <img
+                class="size-20 mb-2 rounded-md shadow shadow-white"
+                src="https://avatars.githubusercontent.com/u/10566080?s=280&v=4"
+                alt="Socket.io logo"
+              />
+              <span>Socket.io</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project section -->
+      <section class="mt-10 box-border px-3">
+        <!-- Heading -->
+        <div class="text-center">
+          <h2>
+            <span class="bg-gray-500 font-medium rounded-md px-4 py-1"
+              >Projects</span
+            >
+          </h2>
+          <p class="mt-3">Projects that i have built</p>
+        </div>
+        <!-- Content -->
+        <div
+          class="max-w-[700px] mx-auto mt-10 bg-[#1f2937] px-3 md:px-10 py-2 relative"
+          data-carousel
+        >
+          <!-- slide container -->
+          <div
+            data-slides
+            class="overflow-hidden rounded-lg flex transition transform duration-200 ease-in"
+          >
+            <!-- Project No 1 -->
+            <div class="min-w-full">
+              <div class="overflow-hidden">
+                <img
+                  src="assets/BookStoreProjectImg.avif"
+                  alt="BookStoreProjectImg"
+                  class="size-30 object-cover rounded-full"
+                />
+              </div>
+              <div>
+                <div>
+                  <h3 class="font-semibold my-3">BookStore REST API</h3>
+                </div>
+
+                <ul>
+                  <li class="my-4 list-disc">
+                    The Book Store REST API is a backend project built using
+                    Node.js, Express.js, and MongoDB. It follows a clean MVC
+                    architecture, making the codebase organized, scalable, and
+                    easy to maintain. The API provides endpoints to manage
+                    books, users, and orders effectively.
+                  </li>
+                  <li class="my-4 list-disc">
+                    It includes key features like JWT authentication, role-based
+                    access control, and secure CRUD operations. I also
+                    implemented search, filtering, and pagination to enhance
+                    data handling and improve performance for larger datasets.
+                  </li>
+                  <li class="my-4 list-disc">
+                    Through this project, I gained strong experience in API
+                    design, validation, and error handling while ensuring smooth
+                    and secure communication between client and server.
+                  </li>
+                </ul>
+
+                <div>
+                  <button
+                    class="px-4 py-2 bg-gray-500 rounded-md cursor-pointer transition transform hover:bg-gray-600 hover:scale-103 active:scale-97 duration-200 ease-in-out"
+                  >
+                    <a
+                      target="_blank"
+                      href="https://github.com/PanchalKeyur0806/BookStore"
+                      >Go to github</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Project No 2 -->
+            <div class="min-w-full hidden">
+              <div class="overflow-hidden">
+                <img
+                  src="assets/AuthenticationProjectImg.avif"
+                  alt="AuthenticationProjectImg"
+                  class="size-30 object-cover rounded-full"
+                />
+              </div>
+              <div>
+                <div>
+                  <h3 class="font-semibold my-3">
+                    Authentication API With Google oauth
+                  </h3>
+                </div>
+
+                <div>
+                  <p class="my-4">
+                    The Authentication API is built with Node.js, Express.js,
+                    and MongoDB to provide secure user authentication. It
+                    supports JWT-based login and signup, along with Google OAuth
+                    2.0 integration using Passport.js.
+                  </p>
+                  <p class="my-4">
+                    It also includes password reset via email, token
+                    verification middleware, and proper environment-based
+                    configuration for security. The project follows a clean and
+                    modular MVC structure for better scalability.
+                  </p>
+                  <p class="my-4">
+                    Through this project, I gained strong experience in
+                    authentication flows, token handling, and API security best
+                    practices.
+                  </p>
+                </div>
+
+                <div>
+                  <button
+                    class="px-4 py-2 bg-gray-500 rounded-md cursor-pointer transition transform hover:bg-gray-600 hover:scale-103 active:scale-97 duration-200 ease-in-out"
+                  >
+                    <a
+                      target="_blank"
+                      href="https://github.com/PanchalKeyur0806/authenticationApi"
+                      >Go to github</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Project No 3 -->
+            <div class="min-w-full hidden">
+              <div class="overflow-hidden">
+                <img
+                  src="assets/urlShortnerImg.jpg"
+                  alt="AuthenticationProjectImg"
+                  class="size-30 object-cover rounded-full"
+                />
+              </div>
+              <div>
+                <div>
+                  <h3 class="font-semibold my-3">URl Shortener</h3>
+                </div>
+
+                <div>
+                  <p class="my-4">
+                    URL Shortener is a full-featured SaaS application built with
+                    Node.js, Express, MongoDB, EJS, Tailwind CSS, and Stripe. It
+                    enables users to create, manage, and track custom short
+                    links via a user-friendly dashboard. The platform offers a
+                    subscription model, allowing users to choose between free
+                    and premium plans, with Stripe integration handling secure
+                    payments and subscription management.
+                  </p>
+                  <p class="my-4">
+                    Administrators have access to a comprehensive admin panel to
+                    monitor user activity, manage subscriptions, and oversee the
+                    overall system. The application ensures a seamless user
+                    experience with responsive design and intuitive navigation,
+                    making it suitable for businesses and developers seeking to
+                    manage and monetize URL shortening services.
+                  </p>
+                  <p class="my-4">
+                    This project demonstrates proficiency in building scalable
+                    web applications with integrated payment systems, user
+                    authentication, and administrative controls, showcasing the
+                    ability to develop production-ready solutions with modern
+                    technologies.
+                  </p>
+                </div>
+
+                <div class="flex gap-5">
+                  <button
+                    class="px-4 py-2 bg-gray-500 rounded-md cursor-pointer transition transform hover:bg-gray-600 hover:scale-103 active:scale-97 duration-200 ease-in-out"
+                  >
+                    <a
+                      target="_blank"
+                      href="https://github.com/PanchalKeyur0806/url-shortener"
+                      >Go to github</a
+                    >
+                  </button>
+
+                  <button
+                    class="px-4 py-2 bg-gray-500 rounded-md cursor-pointer transition transform hover:bg-gray-600 hover:scale-103 active:scale-97 duration-200 ease-in-out"
+                  >
+                    <a
+                      target="_blank"
+                      href="https://url-shortener-xi03.onrender.com"
+                      >Go to LivePage</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Buttons for navigation -->
+
+          <button
+            data-carousel-button="prev"
+            class="absolute left-1 top-1/2 text-5xl cursor-pointer font-medium"
+          >
+            &lt;
+          </button>
+          <button
+            data-carousel-button="next"
+            class="absolute right-1 top-1/2 text-5xl cursor-pointer font-medium"
+          >
+            &gt;
+          </button>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="mt-10 bg-[#111827]">
+        <div>
+          <h2 class="text-center pt-5">
+            <span class="bg-gray-500 px-4 py-1 rounded-md">Experience</span>
+          </h2>
+          <p class="text-center font-light mt-3">
+            Heres Quick Summary Of My Recent Works
+          </p>
+        </div>
+
+        <div class="mt-5 pb-5">
+          <div
+            class="bg-[#1f2937] max-w-[700px] w-[95%] mx-auto px-5 py-3 rounded-lg flex gap-5"
+          >
+            <div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3PPNd7CZlLVJWZkPnfl5s0P5mWwzcmsr2Vg&s"
+                alt="Maxgen Logo"
+                class="size-20 rounded-lg object-center"
+              />
+            </div>
+
+            <div class="w-full ml-4">
+              <div class="flex justify-between gap-5">
+                <h3 class="text-xl">Node.js Developer</h3>
+                <p>July 2024 - May 2025</p>
+              </div>
+
+              <!-- Experience content-->
+              <div class="mt-5">
+                <ul>
+                  <li class="mt-3 list-disc">
+                    Developed and maintained RESTful APIs using Node.js and
+                    Express.js.
+                  </li>
+                  <li class="mt-3 list-disc">
+                    Worked with MongoDB and Mongoose for database design,
+                    queries, and data modeling.
+                  </li>
+                  <li class="mt-3 list-disc">
+                    Implemented authentication and authorization to secure user
+                    access.
+                  </li>
+                  <li class="mt-3 list-disc">
+                    Gained hands-on experience in applying MVC architecture and
+                    best coding practices.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Us -->
+      <section id="contactUs" class="mt-10 box-border">
+        <div class="w-full">
+          <h1 class="text-center mt-2">
+            <span class="px-4 py-1 bg-gray-500 rounded-md">Contact Me</span>
+          </h1>
+        </div>
+
+        <div
+          class="max-w-[1200px] mx-auto flex md:flex-row flex-col justify-between gap-10 mt-10"
+        >
+          <div class="md:w-[50%] w-[95%] mx-auto">
+            <h1 class="sm:text-4xl text-2xl">Let's Get In Touch</h1>
+            <p class="mt-2 text-sm font-light text-gray-300">
+              Or Just Reach out manually to
+              <span class="font-medium text-gray-100"
+                >panchalkeyur694@gmail.com</span
+              >
+            </p>
+          </div>
+          <div class="md:w-[50%] w-[95%] mx-auto">
+            <form method="post">
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div class="flex flex-col gap-3">
+                  <label for="firstName">First Name</label>
+                  <input
+                    type="text"
+                    name="firstName"
+                    id="firstName"
+                    required
+                    autocomplete="off"
+                    class="bg-gray-100 focus:outline-none rounded-md px-4 py-2 text-gray-800 shadow"
+                  />
+                </div>
+
+                <div class="flex flex-col gap-3">
+                  <label for="lastName">Last Name</label>
+                  <input
+                    type="text"
+                    name="lastName"
+                    id="lastName"
+                    required
+                    autocomplete="off"
+                    class="bg-gray-100 focus:outline-none rounded-md px-4 py-2 text-gray-800 shadow"
+                  />
+                </div>
+              </div>
+
+              <div class="flex flex-col gap-3 mt-5">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  autocomplete="off"
+                  id="email"
+                  class="bg-gray-100 focus:outline-none rounded-md px-4 py-2 text-gray-800 shadow"
+                />
+              </div>
+
+              <div class="flex flex-col gap-3 mt-5">
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  class="bg-gray-100 focus:outline-none rounded-md px-4 py-2 text-gray-800 shadow"
+                >
+                </textarea>
+              </div>
+
+              <div class="mt-10 mb-10">
+                <button
+                  type="submit"
+                  class="px-4 bg-white text-slate-800 py-1 rounded-md font-medium cursor-pointer transform transition duration-200 ease-in-out hover:scale-103 active:scale-95"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Show Message -->
+          <div id="message" class="hidden"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
